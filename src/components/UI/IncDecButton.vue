@@ -1,6 +1,6 @@
 <template>
   <button @click="$emit('change')" :class="mode" class="inc-dec-button">
-    <slot></slot>  
+    <slot></slot> 
   </button>  
 </template>
 

@@ -4,6 +4,7 @@
     <TheIntro />
 		<IncrementDecrement />
 		<Forms />
+		<Requests />
   </main>
 </template>
 
@@ -12,13 +13,15 @@ import TheHeader from './components/layouts/TheHeader.vue';
 import TheIntro from './components/layouts/TheIntro.vue';
 import IncrementDecrement from './components/increment-decrement/IncrementDecrement.vue';
 import Forms from './components/forms/Forms.vue';
+import Requests from './components/requests/Requests.vue';
 
 export default {
   components: {
     TheHeader,
     TheIntro,
 		IncrementDecrement,
-		Forms
+		Forms,
+		Requests,
   }
 }
 </script>
