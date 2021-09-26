@@ -16,7 +16,7 @@
 <script>
 import DataTable from './DataTable.vue';
 import UserDetails from './UserDetails.vue';
-import api from '../../services/usersApi.js';
+import api from '../../services/api.js';
 
 export default {
   components: {
